@@ -1,0 +1,193 @@
+html {
+  font-size: 0.9em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-moz-selection {
+  background: #980000;
+  text-shadow: none;
+  color: white;
+}
+
+::selection {
+  background: #980000;
+  text-shadow: none;
+  color: white;
+}
+
+.contour {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #e6c8a1ff;
+}
+
+#bloc2 {
+  line-height: 1.8em;
+  background-color: white;
+}
+
+h1 {
+  color: #980000;
+  font-weight: bold;
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+h2 {
+  color: #5b0f00;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+h3 {
+  color: #cc4125;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.titreDev {
+  color: #980000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.formes {
+  font-size: 3em;
+  color: #5b0f00ff;
+}
+
+#formes2 {
+  font-size: 2em;
+  line-height: 0.6em;
+  color: #5b0f00ff;
+}
+
+#photo {
+  width: 50%;
+  height: auto;
+  border: 3px solid #980000;
+}
+
+#BriceCrouzeix {
+  color: #980000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-color: #980000;
+  border-bottom: 2px solid #980000;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+#logo {
+  width: 40%;
+}
+
+.btn {
+  background-color: #5b0f00;
+  color: #e8ded1;
+  font-size: 1.1em;
+  height: 35px;
+}
+
+li {
+  list-style-type: "●  ";
+}
+
+.intro {
+  list-style-type: disc;
+}
+
+.metier {
+  color: #cc4125;
+}
+
+.accordion-button {
+  background-color: #a0816c;
+  color: #f3e7d7;
+}
+
+.anglais {
+  list-style: none;
+  color: #5b0f00;
+  font-size: 2em;
+  line-height: 0.7em;
+}
+
+.formations {
+  font-size: 100%;
+}
+
+/* Jusqu'a SM */
+@media screen and (max-width: 575px) {
+  body {
+    font-size: 90%;
+  }
+  #photo {
+    width: 30%;
+  }
+
+  #logo {
+    width: 30%;
+  }
+}
+
+/* De SM a MD */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  body {
+    font-size: 100%;
+  }
+  #photo {
+    width: 25%;
+  }
+  #formes2 {
+    font-size: 3em;
+    line-height: 0.6em;
+    color: #5b0f00ff;
+  }
+  #logo {
+    width: 30%;
+  }
+}
+
+/* De MD a LG */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 100%;
+  }
+  #photo {
+    width: 22%;
+  }
+
+  #logo {
+    width: 20%;
+  }
+  #formes2 {
+    font-size: 3em;
+    line-height: 0.6em;
+    color: #5b0f00ff;
+  }
+}
+/* Plus de LG */
+@media screen and (min-width: 993px) {
+  body {
+    font-size: 100%;
+  }
+  #photo {
+    width: 50%;
+  }
+
+  #logo {
+    width: 40%;
+  }
+  #formes2 {
+    font-size: 3em;
+    line-height: 0.6em;
+    color: #5b0f00ff;
+  }
+}
